@@ -19,7 +19,7 @@ menu_click.onload = function() {
 	loading++;
 }
 menu_click.src = "sounds/click.wav";
-menu_click.src = "sounds/cool.mp3";
+
 var mainShip = new Image();
 mainShip.onload = function() {
 	loading++;
