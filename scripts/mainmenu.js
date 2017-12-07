@@ -78,7 +78,7 @@ function mainMenu()
 function mainMenu_click()
 {
 	if(mousex >= midx-200*(width/1220) && mousex <= midx+200*(width/1220) && mousey >= midy-130*(width/1220) && mousey <= midy-60*(width/1220))
-	{
+	{     menu_click.src="sounds/cool.mp3";
 		currentScore = 0;
 		sceneNumber = 6;
 		levelNumber = 1;
